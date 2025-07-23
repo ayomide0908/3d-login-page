@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(228, 222, 222);
+  color: black ;
+  font-family: arial;
+}
+
+.box{
+  height: 250px;
+  width: 300px;
+  padding: 30px;
+  background: rgb(228, 222, 222);
+  border-radius: 10px;
+  padding: 2rem; 
+  color: black;
+  box-shadow: 10px 10px 20px rgba(165, 162, 162, 0.958),  -10px -10px 20px rgba(255, 255, 255, 0.958) ;
+}
+
+.oo{
+  text-align: center;
+  font-weight: bold;
+}
+.a{
+  background:rgb(228, 222, 222); ;
+  justify-content: center;
+  box-shadow: 10px 10px 20px rgba(165, 162, 162, 0.958),  -10px -10px 20px rgba(255, 255, 255, 0.958) ;
+margin: 10px;
+border-radius: 10px;
+width: 210px;
+border: none;
+height: 35px;
+padding: 5px ;
+
+}
+.a:hover{
+padding: 10px;
+width: 220px;
+height: 42px;
+}
+.a:active{
+  border: none;
+}
+.c{
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  background:  rgb(228, 222, 222);
+  margin-left: 93px;
+  box-shadow: inset 10px 10px 20px rgba(165, 162, 162, 0.958),  -10px -10px 20px rgba(255, 255, 255, 0.958) ;
+margin-top: 18px;
+border: none;
+color: grey;
+cursor: pointer;
+transition: padding 0.15s  ;
+
+}
+.c:hover{
+  opacity: 2px;
+  border: none;
+  padding: 10px;
+}
+
+.c:active{
+  border: none;
+  color: rgb(0, 0, 0);
+     box-shadow: inset 10px 10px 20px rgba(255, 255, 255, 0.958),  -10px -10px 20px  rgba(165, 162, 162, 0.958)  ;
+}
